@@ -1,0 +1,4 @@
+Array:
+Sort two dim Array
+intervals = intervals.OrderBy(x => x[0]).ToArray();        
+Array.Sort(intervals, (i1, i2) => i1[0]-i2[0]);
